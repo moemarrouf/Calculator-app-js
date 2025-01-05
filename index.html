@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <title>The Web Calculator | Coding practice</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.png">
+</head>
+
+<body>
+    <div id="calculatorBody">
+        <fieldset>
+            <legend>First Number</legend>
+
+            <input onclick="" id="firstValue" type="number" placeholder="Add a number">
+        </fieldset>
+        <fieldset>
+            <legend>Second Number</legend>
+            <input id="secondValue" type="number" placeholder="Add a number">
+        </fieldset>
+        <input id="answer" type="number" placeholder=" Answer will appear here">
+        <button id="copyAns">Copy Result</button>
+        <div id="copyModal" class="modal">
+            <div class="modal-content">
+                <h2 id="modalMessage">Answer copied!</h2>
+                <button id="closeModal">Close</button>
+            </div>
+        </div>
+
+        <hr>
+        <div id="opreationButtons">
+            <button id="plus" class="opreationClick">&plus;</button>
+            <button id="minus" class="opreationClick">&minus;</button>
+            <button id="divide" class="opreationClick">&divide;</button>
+            <button id="multiply" class="opreationClick">&times;</button> <br>
+            <button id="delete" class="opreationClick">Reset</button>
+        </div>
+        <span>&#128511Made By Moe.&#128030</span>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
