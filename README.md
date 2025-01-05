@@ -1,11 +1,5 @@
 # Calculator
 
-Here's a well-structured README.md template you can use and customize for your project:
-
-markdown
-Copy code
-# Calculator
-
 A simple calculator application built as a learning project using **Vanilla JavaScript**, **HTML**, and **CSS**.
 
 ---
