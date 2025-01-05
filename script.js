@@ -45,7 +45,7 @@ const division = () => {
         return;
     }
     if (num2 === 0) {
-        answer.value = "Cannot divide by zero";
+        alert("Cannot divide by zero");
         return;
     }
     answer.value = num1 / num2;
