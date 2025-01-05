@@ -10,3 +10,6 @@ A simple calculator application built as a learning project using **Vanilla Java
 - Responsive design for better usability on different devices.
 - Clean and intuitive user interface.
 
+- ![image](https://github.com/user-attachments/assets/a5dc4022-b5ef-42b6-9552-f63bcd650901)
+
+
